@@ -1,0 +1,24 @@
+// Variables
+$primary-color: #0078d7;
+$secondary-color: #f2f2f2;
+$tertiary-color: #111;
+$primary-font-size: 32px;
+$secondary-font-size: 24px;
+$tertiary-font-size: 16px;
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint == tablet {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  } @else if $breakpoint == mobile {
+    /* à vérifier si else if ou else */
+    @media (min-width: 393px) {
+      @content;
+    }
+  }
+}
