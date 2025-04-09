@@ -1,1 +1,7 @@
 /*# sourceMappingURL=main.css.map */
+
+header {
+  height: 150px;
+  width: 100vw;
+  background-color: aqua;
+}
