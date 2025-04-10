@@ -1,2 +1,28 @@
 @charset "UTF-8";
-/** Section offre spéciale **//*# sourceMappingURL=main.css.map */
+/** Section offre spéciale **/
+/* section characteristic */
+body {
+  margin: 0%;
+  padding: 0;
+}
+
+.characteristic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.functionnality {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #111;
+  padding: 0.5rem 1rem 0.1rem 1rem;
+}
+.functionnality div {
+  display: flex;
+  gap: 7%;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
