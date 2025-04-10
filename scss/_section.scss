@@ -1,1 +1,35 @@
 /** Section offre spéciale **/
+
+/** Section Review&Ratings **/
+.fa-star {
+  color: #ffd43b;
+}
+.fa-star-half-stroke {
+  color: #ffd43b;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  .customer_review {
+    display: flex;
+    height: 150px;
+  }
+
+  .profile {
+    display: flex;
+  }
+
+  .rating {
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
