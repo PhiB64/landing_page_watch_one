@@ -1,5 +1,107 @@
 /** Section offre spéciale **/
 
+/** Section Hero **/
+.hero {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  padding-left: 5px;
+  padding-top: 5px;
+
+  img {
+    width: auto;
+    height: 200px;
+  }
+  .descript {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(143, 155, 155);
+    margin-left: 5px;
+    padding-left: 20px;
+
+    p {
+      font-size: 16px;
+      color: $secondary-color;
+    }
+  }
+}
+
+.special-offer-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  .special-offer-title {
+    font-size: $secondary-font-size;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+      z-index: 1;
+      margin: 30px;
+    }
+
+    img {
+      width: 120px;
+      height: 105px;
+      position: absolute;
+      left: px;
+    }
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    font-size: $tertiary-font-size;
+    margin: 20px;
+  }
+
+  .limit-date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    font-size: $tertiary-font-size;
+  }
+
+  button {
+    width: 50%;
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+}
+
+/* section characteristic */
+
+.characteristic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.functionnality {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid $tertiary-color;
+  padding: 0.5rem 1rem 0.1rem 1rem;
+
+  div {
+    display: flex;
+    gap: 7%;
+    font-size: $tertiary-font-size;
+  }
+}
+
 /** Section Review&Ratings **/
 .fa-star {
   color: #ffd43b;
