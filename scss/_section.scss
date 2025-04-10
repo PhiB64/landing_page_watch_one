@@ -78,28 +78,60 @@
   }
 }
 
-
 /* section characteristic */
 
-.characteristic{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 1rem;
+.characteristic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem;
 }
 
-.functionnality{
+.functionnality {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid $tertiary-color;
+  padding: 0.5rem 1rem 0.1rem 1rem;
+
+  div {
     display: flex;
-    flex-direction: column;
+    gap: 7%;
+    font-size: $tertiary-font-size;
+  }
+}
+
+/** Section Review&Ratings **/
+.fa-star {
+  color: #ffd43b;
+}
+.fa-star-half-stroke {
+  color: #ffd43b;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  .customer_review {
+    display: flex;
+    height: 150px;
+  }
+
+  .profile {
+    display: flex;
+  }
+
+  .rating {
+    display: flex;
+  }
+
+  img {
     width: 100%;
-    border: 1px solid $tertiary-color;
-    padding: 0.5rem 1rem 0.1rem 1rem;
-
-    div{
-        display: flex;
-        gap: 7%;
-        font-size: $tertiary-font-size;
-    }
+    height: 100%;
+    object-fit: cover;
+  }
 }
-
